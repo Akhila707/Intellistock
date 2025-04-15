@@ -1,1 +1,9 @@
+streamlit
+torch
+ultralytics
+tensorflow
+keras
+numpy
+Pillow
+pydub
 
