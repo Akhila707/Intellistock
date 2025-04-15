@@ -3,6 +3,7 @@ import torch
 from keras.models import load_model
 import os
 from PIL import Image
+from ultralytics import YOLO
 
 # App Title and Description
 st.title("📦 IntelliStock: Predictive Refill & Smart Shelf Monitoring")
@@ -12,7 +13,7 @@ st.write("This app uses YOLOv5 for object detection and LSTM for sales predictio
 @st.cache_resource
 def load_yolo_model():
     model_path = os.path.join(os.getcwd(), "yolo.pt")
-    return torch.hub.load('ultralytics/yolov5', 'custom', path=model_path)
+    return YOLO(model_path)
 
 # Load LSTM model
 @st.cache_resource
