@@ -1,9 +1,8 @@
-streamlit
-torch
-ultralytics
-tensorflow
-keras
-numpy
-Pillow
-pydub
-
+streamlit==1.32.2
+torch==2.2.1
+ultralytics==8.1.17
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.24.4
+Pillow==10.2.0
+pydub==0.25.1
