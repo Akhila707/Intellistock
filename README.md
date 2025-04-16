@@ -3,7 +3,7 @@
 IntelliStock is a real-time intelligent inventory management system that combines **YOLOv5 object detection** and **LSTM-based time series forecasting** to help businesses efficiently monitor shelf stock and predict seasonal product demands.
 
 ## 🚀 Features
-- 🔍 **YOLOv5 for Smart Shelf Detection**: Upload images to detect empty or reduced stock spaces.
+- 🔍 **YOLOv8 for Smart Shelf Detection**: Upload images to detect empty or reduced stock spaces.
 - 🔔 **Alarm Notification**: Receive audio alerts if shelf spaces are empty or understocked.
 - 📈 **LSTM Sales Prediction**: Automatically recommends seasonal products based on sales data trends.
 - 🌐 **Streamlit Web App**: Simple UI for interaction.
