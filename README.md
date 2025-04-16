@@ -19,4 +19,10 @@ IntelliStock is a real-time intelligent inventory management system that combine
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/intellistock-monitoring.git
-cd intellistock-monitoring
+cd intellistock-monitoring ```
+
+## Install Requirements
+pip install -r requirements.txt
+
+## Run the App
+streamlit run api.py
