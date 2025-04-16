@@ -9,7 +9,7 @@ IntelliStock is a real-time intelligent inventory management system that combine
 - 🌐 **Streamlit Web App**: Simple UI for interaction.
 
 ## 🧪 Technologies Used
-- **YOLOv5 (Ultralytics)**: For real-time object detection.
+- **YOLOv8 (Ultralytics)**: For real-time object detection.
 - **LSTM (Keras/TensorFlow)**: To forecast sales trends and seasonal demands.
 - **Streamlit**: Interactive front-end for running the application.
 - **Torch, Numpy, Pillow, Pydub**: Supporting ML & multimedia handling.
